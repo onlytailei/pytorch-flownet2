@@ -18,7 +18,7 @@ from torch.autograd import Variable
 class Model(nn.Module):
     def __init__(self, args):
         super(Model, self).__init__()
-        self.logger = args.logger
+        #self.logger = args.logger
 
     def _init_weights(self):
         raise NotImplementedError("not implemented in base calss")
